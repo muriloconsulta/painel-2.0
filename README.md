@@ -1,7 +1,8 @@
 Um pequeno painel de consulta grátis
 
+Créditos: A parte de CPF foi do script do P0ison, mas o Yato colocou os outros menus da mesma forma que o dele.
 
-como instala no termuquis
+Tutorial de Instalação:
 
 pkg update && pkg upgrade
 
@@ -17,9 +18,16 @@ pip install requests
 
 pip install colorama
 
-git clone https://github.com/muriloconsulta/painel-2.0
+git clone https://github.com/markoswythor/painel
 
 cd painel
 
 python3 main.py
 
+#Caso esteja atualizando#
+
+rm -rf painel
+
+#############
+
+apt update && apt upgrade apt install python pip3 install requests git clone https://github.com/markoswythor/painel cd painel chmod +x * python3 main.py
